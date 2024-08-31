@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Car car1 = new Car(1234,"Toyota");
+        car1.getName();
+        car1.getNo();
     }
 }
